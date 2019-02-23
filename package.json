@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/ahmedatef1610/My-Reddit",
+  "homepage": "https://github.com/ahmedatef1610/movie-info-app.git",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
