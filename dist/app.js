@@ -43,7 +43,7 @@ function getMovie() {
     let movieId = sessionStorage.getItem('movieId');
 
 
-    $.get(`http://www.omdbapi.com/?apikey=16b8dca2&i=${movieId}`, function (data) {
+    $.get(`https://www.omdbapi.com/?apikey=16b8dca2&i=${movieId}`, function (data) {
 
         $('#movie').html('');
 
