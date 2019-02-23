@@ -10,7 +10,7 @@ $(document).ready(function () {
 /*************************************************************************/
 
 function getMovies(searchText,searchPage) {
-    $.get(`http://www.omdbapi.com/?apikey=16b8dca2&s=${searchText}&page=${searchPage}`, function (data, textStatus, jqXHR) {
+    $.get(`https://www.omdbapi.com/?apikey=16b8dca2&s=${searchText}&page=${searchPage}`, function (data, textStatus, jqXHR) {
 
         $('#movies').html('');
         $.each(data.Search, function (i, ele) {
