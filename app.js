@@ -10,7 +10,7 @@ $(document).ready(function () {
 /*************************************************************************/
 
 function getMovies(searchText,searchPage) {
-    $.get(`http://www.omdbapi.com/?apikey=16b8dca2&s=${searchText}&page=${searchPage}`, function (data, textStatus, jqXHR) {
+    $.get(`https://www.omdbapi.com/?apikey=16b8dca2&s=${searchText}&page=${searchPage}`, function (data, textStatus, jqXHR) {
 
         $('#movies').html('');
         $.each(data.Search, function (i, ele) {
@@ -35,7 +35,7 @@ function getMovies(searchText,searchPage) {
 
 function movieSelected(id) {
     sessionStorage.setItem('movieId', id);
-    location.href = `https://ahmedatef1610.github.io/movie-info-app/movie.html`;
+    location.href = `movie.html`;
     return false;
 }
 /********/
