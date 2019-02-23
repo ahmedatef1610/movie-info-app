@@ -35,7 +35,7 @@ function getMovies(searchText,searchPage) {
 
 function movieSelected(id) {
     sessionStorage.setItem('movieId', id);
-    location.href = `movie.html`;
+    location.href = `https://ahmedatef1610.github.io/movie-info-app/movie.html`;
     return false;
 }
 /********/
